@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-color: #f8f4e1;
+  padding-inline: 40px;
+}
+:root {
+  --h1font: "Lato", sans-serif;
+}
+Title {
+  font-family: var(--h1font);
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+p {
+  font-family: var(--h1font);
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  background-color: #c39898;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  font-family: var(--h1font);
+  font-weight: 600;
+}
+ul {
+  font-family: var(--h1font);
+  list-style: none;
+}
+li {
+  background-color: #c39898;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  border-width: 0cqmax;
+  text-align: center;
+}
+.definitions {
+  margin: 12px;
+}
+/*li {
+  list-style: none;
+}*/
+.astra {
+  color: #70070d;
+  font-style: italic;
+}

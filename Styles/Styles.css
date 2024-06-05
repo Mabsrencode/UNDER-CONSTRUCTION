@@ -1,0 +1,50 @@
+:root {
+  --h1font: "Lato", sans-serif;
+}
+h1 {
+  font-family: var(--h1font);
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.Mabsrencode {
+  font-family: var(--h1font);
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+}
+.Mabsrencode:hover {
+  text-decoration: underline;
+}
+.Mabsrencode:visited {
+  color: #028391;
+  text-decoration: underline;
+}
+#gitna {
+  text-align: center;
+  color: #01204e;
+  font-weight: bold;
+  border: 2px black solid;
+}
+.container {
+  width: 100px;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+.about-us a {
+  color: rgb(36, 31, 23) !important;
+  border: 1px solid #f6eec9;
+  display: inline;
+  text-orientation: sideways-right;
+  list-style: none;
+  font-size: 20px;
+}
+.about-us {
+  text-align: left;
+}
+/*.about-us a {
+  color: white;
+}*/
